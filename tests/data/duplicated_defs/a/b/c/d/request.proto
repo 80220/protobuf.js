@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package a.b.c.d;
+
+import "a/b/c/d/common.proto";
+
+message CreateRouteRequest {
+    StaticRoute static_route = 1;
+}

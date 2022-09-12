@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package a.b.c.d;
+
+message StaticRoute {
+    string name = 1;
+  }
